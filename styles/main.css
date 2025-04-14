@@ -1,3 +1,8 @@
 blockquote {
   @apply my-4;
 }
+
+/* Fix checkbox bug */
+.task-list-item-checkbox + label > span {
+  display: none;
+}
